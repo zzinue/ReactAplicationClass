@@ -1,0 +1,16 @@
+.GeneralInput {
+    border: 2px solid blue;
+}
+
+.GeneralInput-Content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: flex-start;
+}
+
+.subdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

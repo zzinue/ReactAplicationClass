@@ -8,3 +8,11 @@ $background: #C5E4E7;
 body {
     background-color: $background;
 }
+
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
