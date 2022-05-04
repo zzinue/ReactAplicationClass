@@ -24,8 +24,9 @@ const Percent = [
     },
     {
         label: 'Custom',
-        value: 1
+        value: 0
     },
+
 ]
 
 
@@ -35,10 +36,11 @@ function TipButton() {
             <div className="TipButton-Container"></div>
             <div className='TipButton-Content'>
                 <h2>Select Tip %</h2>
-                <div>
+                <div className='TipButton-Content-Percent'>
                     {Percent.map(percent => (
                         <button key={percent.value}>{percent.label}</button>
                     ))}
+
                 </div>
                 <div>
 

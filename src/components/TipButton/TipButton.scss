@@ -1,0 +1,42 @@
+    .TipButton {
+        display: flex;
+        width: 90%;
+        height: 50%;
+    }
+    
+    .TipButton-Content-Percent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .TipButton-Content h2 {
+        width: 96px;
+        height: 12px;
+        left: 342px;
+        top: 326px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #6C7B7E;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .TipButton-Content-Percent button {
+        background-color: #00474B;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        font-family: Space Mono;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31.1px;
+        font-style: normal;
+        justify-content: space-between;
+    }

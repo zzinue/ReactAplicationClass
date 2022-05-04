@@ -1,16 +1,33 @@
-.GeneralInput {
-    border: 2px solid blue;
-}
-
 .GeneralInput-Content {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.GeneralInput-Content h4 {
+    margin: 1rem;
+    justify-content: flex-start;
+    font-family: Space Mono;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19.25px;
+    color: #6C7B7E;
 }
 
 .subdiv {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    width: 85%;
+}
+
+.subdiv img {
+    height: 1rem
+}
+
+.subdiv input {
+    width: 100%;
+    height: 100%;
 }

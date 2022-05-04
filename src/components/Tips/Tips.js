@@ -9,8 +9,8 @@ const Tips = () => {
             <div className="Tips-Container">
                 <div className="Tips-Content">
                     <TipButton />
-                    <GeneralInput />
                 </div>
+                <div><GeneralInput /></div>
             </div>
         </div>
     )

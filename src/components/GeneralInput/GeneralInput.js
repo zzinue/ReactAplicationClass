@@ -1,6 +1,6 @@
 import React from 'react'
 import './GeneralInput.scss'
-import { ReactComponent as Vector } from '../../assets/Vector.svg'
+import Vector from '../../assets/Vector.svg'
 
 const GeneralInput = () => {
     return (
@@ -9,13 +9,15 @@ const GeneralInput = () => {
                 <div className="GeneralInput-Content">
                     <h4>Bill</h4>
                     <div className='subdiv'>
-                        <Vector />
-                        <h3>0 </h3>
+
+                        <img src={Vector} alt="" />
+                        <input text='' value='0'>
+                        </input>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
