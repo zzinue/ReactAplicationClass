@@ -1,5 +1,7 @@
 .Tips-Content {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 0 auto 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min(135px));
+    justify-content: space-around;
+    gap: 16px;
 }

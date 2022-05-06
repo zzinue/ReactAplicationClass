@@ -2,18 +2,26 @@ import React from 'react'
 import '././PersonAmount.scss'
 
 const PersonAmount = () => {
+    const total = 0;
+    const label = 'Tips'
     return (
         <div className="PersonAmount">
             <div className="PersonAmount-Container">
                 <div className="PersonAmount-Content">
-                    <h4>Tip Amount</h4>
-                    <input placeholder='/person' />
-                </div>
-                <div className='PersonAmount-Content-Reset'>
-                    <h4>Total</h4>
-                    <input placeholder='/person' />
+                    <div className='PersonAmount-Content-Amount'>
+                        <div className='PersonAmount-Text' >
+                            <p>{label}</p>
+                            <span>/ person</span>
+                        </div>
+                        <div className='PersonAmount-Price'>
+                            <p>{total === 0 ? '$0.00 MXN' : `$ ${total} MXN`}</p>
+
+                        </div>
+                    </div>
+
 
                 </div>
+
             </div>
         </div>
     )

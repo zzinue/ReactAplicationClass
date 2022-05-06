@@ -1,8 +1,37 @@
 $color-PersonAmount: #fff;
-.PersonAmount-Content h4 {
-    color: $color-PersonAmount;
+.PersonAmount {
+    display: flex;
+    justify-content: space-between;
+    .PersonAmount-Text {
+        p {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.02rem;
+            color: white;
+        }
+        span {
+            font-size: 11px;
+            list-style: 17px;
+            letter-spacing: -0.02rem;
+            color: #78a1A5;
+        }
+    }
+    .PersonAmount-Price {
+        p {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 56px;
+            color: #27c6ae;
+        }
+    }
 }
 
-.PersonAmount-Content-Reset {
-    color: $color-PersonAmount;
+.PersonAmount-Container {
+    width: 100%;
+}
+
+.PersonAmount-Content-Amount {
+    display: flex;
+    justify-content: space-between;
 }

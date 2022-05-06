@@ -1,19 +1,15 @@
 import React from 'react'
 import './GeneralInput.scss'
-import Vector from '../../assets/Vector.svg'
+import { CustomInput } from './CustomInput'
 
-const GeneralInput = () => {
+const GeneralInput = ({ label, icon }) => {
     return (
         <div className="GeneralInput">
             <div className="GeneralInput-Container">
                 <div className="GeneralInput-Content">
-                    <h4>Bill</h4>
-                    <div className='subdiv'>
+                    <p>{label}</p>
+                    <CustomInput icon={icon} />
 
-                        <img src={Vector} alt="" />
-                        <input text='' value='0'>
-                        </input>
-                    </div>
 
                 </div>
             </div>

@@ -1,8 +1,15 @@
 import React from 'react'
+import './ResetButton.scss'
 
 const ResetButton = () => {
     return (
-        <button>Reset</button>
+        <div className='ResetButton'>
+            <div className='ResetButton-Container'>
+                <div className='ResetButton-Content'>
+                    <button>Reset</button>
+                </div>
+            </div>
+        </div>
     )
 }
 
