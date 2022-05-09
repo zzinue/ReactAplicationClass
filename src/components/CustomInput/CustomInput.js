@@ -1,16 +1,16 @@
-import React from "react";
-import "./CustomInput.scss";
+import './CustomInput.scss'
+import dolar from '../../assets/dolar.svg'
+import people from '../../assets/people.svg'
 
-export const CustomInput = ({ placeholder, icon, state, setState }) => {
-
+const CustomInput = ({ placeholder, icon }) => {
     return (
         <div className="CustomInput">
             <div className="CustomInput-Container">
                 <div className="CustomInput-Content">
                     <img src={
-                        icon === 'people'
-                            ? require('../../assets/people.svg')
-                            : require('../../assets/Vector.svg')
+                        icon === "dolar" ?
+                            dolar :
+                            people
                     } alt={placeholder} />
                     <input className="InputCero" type="number" />
 
@@ -20,3 +20,4 @@ export const CustomInput = ({ placeholder, icon, state, setState }) => {
     )
 
 }
+export default CustomInput;

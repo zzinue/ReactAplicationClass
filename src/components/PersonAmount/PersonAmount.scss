@@ -2,7 +2,15 @@ $color-PersonAmount: #fff;
 .PersonAmount {
     display: flex;
     justify-content: space-between;
+    margin-block-end: 42px;
     .PersonAmount-Text {
+        h2 {
+            font-size: 14px;
+            font-family: monospace;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: -0.02rem;
+        }
         p {
             font-weight: 700;
             font-size: 14px;

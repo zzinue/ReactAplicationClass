@@ -1,0 +1,19 @@
+.CustomInput-Content {
+    position: relative;
+}
+
+.CustomInput-Content img {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.CustomInput-Content input {
+    border: 3px solid transparent;
+    width: 120%;
+    height: 35px;
+    text-align: right;
+    font-size: 18px;
+    padding: 16px;
+    cursor: pointer;
+}

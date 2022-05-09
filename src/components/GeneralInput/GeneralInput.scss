@@ -1,22 +1,24 @@
 .GeneralInput-Content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-block-end: 7px;
-    margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
     box-sizing: border-box;
 }
 
-.GeneralInput-Content h4 {
+.GeneralInput-Content p {
     margin: 1rem;
     justify-content: flex-start;
-    font-family: Space Mono;
+    font-family: monospace;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 19.25px;
+    font-size: 15px;
+    line-height: 22px;
     color: #6C7B7E;
+    margin-block: 13px;
 }
 
 .subdiv {

@@ -12,7 +12,6 @@ const Calculator = () => {
                 </div>
                 <div className="Calculator-Content-Result">
                     <Result />
-
                 </div>
             </div>
         </div>
